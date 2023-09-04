@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:wght@300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@600;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,500&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.768.css" >
+    <link rel="stylesheet" href="rezponsive.576.css" >
+  </head>
+  <body>
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container d-flex justify-content-between">
+          <div>
+              <h2 class="text-white text-uppercase">Arsha</h2>
+          </div>
+        <i class="bi bi-list"></i>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          
+          </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Teams</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Action</button></li>
+                    <li><button class="dropdown-item" type="button">Another action</button></li>
+                    <li><button class="dropdown-item" type="button">Something else here</button></li>
+                  </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            </li>
+            
+
+            <li class="nav-item">
+              <button class="btn btn-primary w-100 text-start  d-inline-block d-lg-none btn-darks">Get Started</button>
+              <button class="btn btn-primary w-100 text-start d-none d-lg-inline-block btn-dark-p">Get Started</button>
+            </li>
+          </ul>
+          
+        </div>
+       
+      </div>
+    </nav>
+   </header>
+   <!-- ************ hero section start *********** -->
+
+   <section class="hero-sec" id="hero">
+    <div class="container row m-auto text-center text-lg-start d-flex flex-column flex-lg-row justify-content-between align-items-center py-5">
+      <div class="content col-12 col-lg-6 order-2 order-lg-1">
+        <h1>Better Solutions For Your Business</h1>
+        <h4>We are team of talented designers making websites with Bootstrap</h4>
+        <i class="bi bi-play-circle"></i>
+        <div class=" d-flex justify-content-center justify-content-lg-start align-items-center" >
+          <button class="mt-0 btn btn-primary btn-md">Get Started</button>
+          <div class="d-flex justify-content-start align-items-center ms-4">
+            <div>
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
+            <div>
+              <button class="btn btn-dark p-2"> 
+                Watch Video</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="imag-div col-12 col-lg-6  flex-grow-1 order-1 order-lg-2" data-aos="zoom-in" data-aos-duration="1200">
+        <img src="hero-img.png" class="img-fluid  vert-move">
+      </div>
+    </div>
+   </section> 
+   <!-- ********* client section start ********* -->
+   <section id="clien">
+    <div class="container" data-aos="zoom-in" data-aos-duration="1200">
+      <div class="row">
+        <div class="clients col-6 col-lg-2 d-flex justify-content-center align-items-center"> <img class="img-fluid " src="client-1.png"></div>
+        <div class="clients col-6 col-lg-2 d-flex justify-content-center align-items-center" > <img class="img-fluid" src="client-2.png"></div>
+        <div class="clients col-6 col-lg-2 d-flex justify-content-center align-items-center" > <img class="img-fluid" src="client-3.png"></div>
+        <div class="clients col-6 col-lg-2 d-flex justify-content-center align-items-center" > <img class="img-fluid" src="client-4.png"></div>
+        <div class="clients col-6 col-lg-2 d-flex justify-content-center align-items-center" > <img class="img-fluid" src="client-5.png"></div>
+        <div class="clients col-6 col-lg-2 d-flex justify-content-center align-items-center" > <img class="img-fluid" src="client-6.png"></div>
+
+      </div>
+    </div>
+   </section>
+   <!-- ******* about us section start ********** -->
+   <section style="padding: 60px 0px;" >
+    <div class="container " data-aos="zoom-in-up" data-aos-duration="1200">
+      <div class="row" >
+        <div class="title col-12 text-center " style="padding-bottom: 30px;">
+          <h2>About US</h2>
+        </div>
+        <div class="para-left col-12 col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
+          <ul>
+            <li> 
+              <i class="fa-solid fa-check-double"></i>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+            <li> 
+              <i class="fa-solid fa-check-double"></i>
+              Duis aute irure dolor in reprehenderit in voluptate velit</li>
+            <li> 
+              <i class="fa-solid fa-check-double"></i>
+              Duis aute irure dolor in reprehenderit in voluptate velit</li>
+  
+          </ul>
+        </div>
+        <div class="para-rightt col-12 col-lg-6">
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <button class="btn btn-primary btn-squr">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- *********** Eum ipsam laborum section start *********** -->
+   <section style="background-color:#F3F5FA">
+    <div class="container-fluid" data-aos="zoom-up" data-aos-duration="1900">
+      <div class="row align-items-center ">
+        <div class="content col-12 col-lg 6 order-2 order-lg-1 mt-fifty" data-aos="zoom-in-up" data-aos-duration="1200">
+          <h3>Eum ipsam laborum deleniti <strong> velit pariatur architecto aut nihil</strong> </h3> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+          <div class="dropd">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <span class="nmbr">01</span> Non consectetur a erat nam at lectus urna duis? 
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <span class="nmbr">02</span>Feugiat scelerisque varius morbi enim nunc? 
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <span class="nmbr">03</span> Dolor sit amet consectetur adipiscing elit? 
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img-div col-12 col-lg 6 text-center align-items-center order-1 order-lg-2 img-fit" data-aos="zoom-in-up" data-aos-duration="1400" >
+          <img class="img-fluid img-about-us " src="why-us.png"> 
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- ======= Skills Section ======= -->
+   <section id="skills">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="photo col-12 col-lg-6" data-aos="zoom-in-right"  data-aos-duration="1300">
+          <img src="skills.png" class="img-fluid mb-3 mb-lg-0 skill-png">
+        </div>
+        <div class="skills col-12 col-lg-6"
+        data-aos="zoom-in-left" data-aos-duration="1300">
+          <div class="skill-con">
+            <h1>Voluptatem dignissimos provident quasi corporis voluptates</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="skil-span d-flex justify-content-between">
+            <span class="span-right">Html</span>
+
+            <span class="span-right">100%</span>
+          </div>
+          
+          <div class="progress mt-bt">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" 
+            style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="skil-span d-flex justify-content-between">
+            <span class="span-right">css</span>
+
+            <span class="span-right">90%</span>
+          </div>
+          <div class="progress mt-bt">
+            
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="skil-span d-flex justify-content-between">
+            <span class="span-right">Html</span>
+
+            <span class="span-right">75%</span>
+          </div>
+          <div class="progress mt-bt">
+            
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="skil-span d-flex justify-content-between">
+            <span class="span-right">Html</span>
+
+            <span class="span-right">55%</span>
+          </div>
+          <div class="progress mt-bt">
+            
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- ******* service section start ************* -->
+   <section>
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1200">
+      <div class="row">
+        <div class="serv-title col-12 text-center">
+          <h3>SERVICES</h3>
+          <p class="mb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="col-12 bt-sixty">
+          <div class="row">
+
+            <div class=" col-12 col-lg-3 col-md-6 overfl">
+              <div class="icon-box " > 
+                <i class="fa-brands fa-dribbble"></i>
+                <h4>Nemo Enim</h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+            <div class=" col-12 col-lg-3 col-md-6 mt-4 mt-md-0 overfl">
+              <div class="icon-box" data-aos="zoom-in" data-aos-duration="1200"> 
+                <i class="fa-brands fa-dribbble"></i>
+                <h4>Nemo Enim</h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+            <div class=" col-12 col-lg-3 col-md-6 mt-4 mt-lg-0 overfl">
+              <div class="icon-box" data-aos="zoom-in" data-aos-duration="1200" > 
+                <i class="fa-brands fa-dribbble"></i>
+                <h4>Nemo Enim</h4>
+              <p >At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+            <div class=" col-12 col-lg-3 col-md-6 mt-4 mt-lg-0 overfl">
+              <div class="icon-box" data-aos="zoom-in" data-aos-duration="1200" > 
+                <i class="fa-brands fa-dribbble"></i>
+                <h4>Nemo Enim</h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+</div>
+<!-- /* ********* call to action start ********** */ -->
+<section class="cta">
+  <div class="container" data-aos="zoom-in" data-aos-duration="1200" >
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-9 ctaa text-center text-lg-start">
+        <h1>Call To Action</h1>  
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-12 col-lg-3 text-center text-lg-end">
+        <button class="btn btn-primary cta-btn">
+          Call To Action
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /* ********* Portfolio section start ********** */ -->
+<section class="d-h">
+  <div class="container position-relative">
+    <div class="col-12 text-center port-con" >
+      <h1 >PORTFOLIO</h1>
+      <p>
+        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+      </p>
+      <div class="btn-div pb-4">
+        <button class="btn btnt actives">All</button>
+        <button class="btn btnt">App</button>
+        <button class="btn btnt">Card</button>
+        <button class="btn btnt">Web</button>
+      </div>
+    </div>
+    <div class="row position-relative  " >
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute tp ">
+        <div class="zomm zoom-on">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-1.jpg">
+          </div>
+        </div>
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 tt position-absolute">
+        <div class="zomm">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-2.jpg">
+          </div>
+        </div>
+        
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute t-one ">
+        <div class="zomm zoom-thre">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-3.jpg">
+          </div>
+        </div>
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute  t-four">
+        <div class="zomm zomm-four">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-6.jpg">
+          </div>
+        </div>
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute  t-five">
+        <div class="zomm zomm-five">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-5.jpg">
+          </div>
+        </div>
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute  t-six">
+        <div class="zomm zomm-six" >
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-4.jpg">
+          </div>
+        </div>
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute t-seven ">
+        <div class="zomm zomm-sev">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-9.jpg">
+          </div> 
+        </div>
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute t-eight ">
+        <div class="zomm zomm-eight">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-8.jpg">
+          </div>
+        </div>
+      </div>
+      <div class=" col-12 col-lg-4 col-md-6 position-absolute t-nine ">
+        <div class="zomm zomm-nine">
+          <div class="zoom-in">
+            <img class="img-fluid colss" src="portfolio-7.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ******* for mobilke ********** -->
+<section class="formoble ">
+     <div class="container text-center mob-con" >
+         <div class="row">
+            <div class="col-12"><div class="col-12 text-center port-con" data-aos="fade-up" data-aos-duration="1000">
+              <h1>PORTFOLIO</h1>
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+              </p>
+              <div class="btn-div pb-4" data-aos="fade-up" data-aos-duration="1000">
+                <button class="btn btnt actives">All</button>
+                <button class="btn btnt">App</button>
+                <button class="btn btnt">Card</button>
+                <button class="btn btnt">Web</button>
+              </div></div>
+         </div>
+         <div class="d-flex flex-column align-items-center justify-content-between" data-aos="fade-up" data-aos-duration="1000">
+          <div class=" col "><img class="img-fluid" src="portfolio-2.jpg"></div>
+          <div class=" col "><img class="img-fluid" src="portfolio-3.jpg"></div>
+          <div class=" col"><img class="img-fluid" src="portfolio-6.jpg"></div>
+          <div class=" col"><img class="img-fluid" src="portfolio-5.jpg"></div>
+          <div class=" col "><img class="img-fluid" src="portfolio-4.jpg"></div>
+          <div class=" col"><img class="img-fluid" src="portfolio-9.jpg"></div>
+          <div class=" col  "><img class="img-fluid" src="portfolio-8.jpg"></div>
+          <div class=" col  "><img class="img-fluid" src="portfolio-7.jpg"></div>
+         </div>
+     </div>
+</section>
+<section class="clear"></section>
+<!-- ******* team section start here ********** -->
+<section id="team" style="background-color: #F3F5FA; padding: 65px 0px;">
+  <div class="container">
+    <div class="row">
+      <div class="sec-titile col-12 text-center pb-4" data-aos="fade-up" data-aos-duration="1000">
+        <h1>TEAM</h1>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+    <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-duration="1300">
+      <div class=" shadow-box shado">
+        <div class="row align-items-center">
+          <div class="col-4 t-img wi">
+            <img  class="img-fluid wi" src="team-1.jpg">
+          </div>
+          <div class="col-8 t-cont">
+            <h6>William Anderson</h6>
+            <p>Chief Executive Officer</p>
+            <hr class="bord">
+            <p> Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+            <div class="t-icon">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+  
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-duration="1300">
+      <div class=" shadow-box shado">
+        <div class="row align-items-center">
+          <div class="col-4 t-img wi">
+            <img  class="img-fluid wi" src="team-2.jpg">
+          </div>
+          <div class="col-8 t-cont">
+            <h6>William Anderson</h6>
+            <hr class="bord">
+            <p>Cto</p>
+            <p> Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+            <div class="t-icon">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+  
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-duration="1300">
+      <div class=" shadow-box shado">
+        <div class="row align-items-center">
+          <div class="col-4 t-img wi">
+            <img  class="img-fluid wi" src="team-3.jpg">
+          </div>
+          <div class="col-8 t-cont">
+            <h6>William Anderson</h6>
+            <hr class="bord">
+            <p>Cto</p>
+            <p> Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+            <div class="t-icon">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+  
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-duration="1300">
+      <div class=" shadow-box shado">
+        <div class="row align-items-center">
+          <div class="col-4 t-img wi">
+            <img  class="img-fluid wi" src="team-4.jpg">
+          </div>
+          <div class="col-8 t-cont">
+            <h6>William Anderson</h6>
+            <p>Accountant</p>
+            <hr class="bord">
+            <p> Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+            <div class="t-icon">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+  
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ********** pricing section start  for desktop*********** -->
+<section style="padding: 70px 0px;" id="for-desk">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-12 text-center section-title"  data-aos="fade-up" data-aos-duration="1000">
+        <h1>PRICING</h1>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="1300">
+        <div class="conts">
+          <h1>Free Plan</h1>
+          <h4>
+            <sup>$</sup>
+            0</h4>
+          <p>per month</p>
+          <ul >
+            <li >
+              <i class="fa-solid fa-check"></i>
+              Quam adipiscing vitae proin</li>
+              <li >
+                <i class="fa-solid fa-check"></i>
+                Quam adipiscing vitae proin</li>
+                <li >
+                  <i class="fa-solid fa-check"></i>
+                  Quam adipiscing vitae proin</li>
+                  <li >
+                    <i class="fa-solid fa-check"></i>
+                    Quam adipiscing vitae proin</li>
+                    <li >
+                      <i class="fa-solid fa-check"></i>
+                      Quam adipiscing vitae proin</li>
+          </ul>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+      <!-- box 2 -->
+      <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="1300">
+        <div class="conts">
+          <h1>Free Plan</h1>
+          <h4>
+            <sup>$</sup>
+            29</h4>
+          <p>per month</p>
+          <ul >
+            <li >
+              <i class="fa-solid fa-check"></i>
+              Quam adipiscing vitae proin</li>
+              <li >
+                <i class="fa-solid fa-check"></i>
+                Quam adipiscing vitae proin</li>
+                <li >
+                  <i class="fa-solid fa-check"></i>
+                  Quam adipiscing vitae proin</li>
+
+                  <li >
+                    <i class="fa-solid fa-check"></i>
+                    Quam adipiscing vitae proin</li>
+                    <li >
+                      <i class="fa-solid fa-check"></i>
+                      Quam adipiscing vitae proin</li>
+              
+            
+          </ul>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+      <!-- box 3 -->
+      <div class="col-12 col-lg-4 " data-aos="fade-up" data-aos-duration="1300">
+        <div class="conts">
+          <h1>Free Plan</h1>
+          <h4>
+            <sup>$</sup>
+            49</h4>
+          <p>per month</p>
+          <ul >
+            
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Quam adipiscing vitae proin</li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Quam adipiscing vitae proin</li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Quam adipiscing vitae proin</li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Quam adipiscing vitae proin</li>
+                    <li>
+                      <i class="fa-solid fa-check"></i>
+                      Quam adipiscing vitae proin</li>
+            
+          </ul>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ********** pricing for mobile********* -->
+<section style="padding: 70px 0px;" id="for-mobile">
+  <div class="container mob-cont">
+    <div class="row justify-content-between">
+      <div class="col-12 text-center section-title" data-aos="fade-up" data-aos-duration="1000">
+        <h1>PRICING</h1>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="col-12 ">
+        <div class="conts">
+          <h1>Free Plan</h1>
+          <h4>
+            <sup>$</sup>
+            0</h4>
+          <p>per month</p>
+          <ul >
+            <li >
+              <i class="fa-solid fa-check"></i>
+              Quam adipiscing vitae proin</li>
+              <li >
+                <i class="fa-solid fa-check"></i>
+                Quam adipiscing vitae proin</li>
+                <li >
+                  <i class="fa-solid fa-check"></i>
+                  Quam adipiscing vitae proin</li>
+                  <li >
+                    <i class="fa-solid fa-check"></i>
+                    Quam adipiscing vitae proin</li>
+                    <li >
+                      <i class="fa-solid fa-check"></i>
+                      Quam adipiscing vitae proin</li>
+          </ul>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+      <!-- box 2 -->
+      <div class="col-12  " data-aos="fade-up" data-aos-duration="1300">
+        <div class="conts">
+          <h1>Free Plan</h1>
+          <h4>
+            <sup>$</sup>
+            29</h4>
+          <p>per month</p>
+          <ul >
+            <li >
+              <i class="fa-solid fa-check"></i>
+              Quam adipiscing vitae proin</li>
+              <li >
+                <i class="fa-solid fa-check"></i>
+                Quam adipiscing vitae proin</li>
+                <li >
+                  <i class="fa-solid fa-check"></i>
+                  Quam adipiscing vitae proin</li>
+
+                  <li >
+                    <i class="fa-solid fa-check"></i>
+                    Quam adipiscing vitae proin</li>
+                    <li >
+                      <i class="fa-solid fa-check"></i>
+                      Quam adipiscing vitae proin</li>
+              
+            
+          </ul>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+      <!-- box 3 -->
+      <div class="col-12  " data-aos="fade-up" data-aos-duration="1300">
+        <div class="conts">
+          <h1>Free Plan</h1>
+          <h4>
+            <sup>$</sup>
+            49</h4>
+          <p>per month</p>
+          <ul >
+            
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Quam adipiscing vitae proin</li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Quam adipiscing vitae proin</li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Quam adipiscing vitae proin</li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Quam adipiscing vitae proin</li>
+                    <li>
+                      <i class="fa-solid fa-check"></i>
+                      Quam adipiscing vitae proin</li>
+            
+          </ul>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FREQUENTLY ASKED QUESTIONS section start  -->
+<section style="background-color: #F3F5FA; padding: 70px 0px;">
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-12 section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        <p class="pb-3">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="col-12 row-pad " >
+
+        <div class="dropd">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1300">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <span class="nmbr"><i class="fa-regular fa-circle-question"></i></span> Non consectetur a erat nam at lectus urna duis? 
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1300">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span class="nmbr"><i class="fa-regular fa-circle-question"></i></span>Feugiat scelerisque varius morbi enim nunc? 
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1300">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span class="nmbr"><i class="fa-regular fa-circle-question"></i></span> Dolor sit amet consectetur adipiscing elit? 
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1400">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  <span class="nmbr"><i class="fa-regular fa-circle-question"></i></span> Dolor sit amet consectetur adipiscing elit? 
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1400">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  <span class="nmbr"><i class="fa-regular fa-circle-question"></i></span> Dolor sit amet consectetur adipiscing elit? 
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<!-- ******** Contact section start ************ -->
+<section style="padding: 70px 0px;">
+  <div class="container" data-aos="fade-up" data-aos-duration="1300">
+    <div class="row">
+      <div class="section-title col-12 text-centert">
+        <h6>Contact</h6>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-lg-6 map">
+            <div class="mapx">
+              <div class="fa-location">
+                <div class="loc-img">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="loc-con">
+                  <h1>Location:</h1>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="fa-location">
+                <div class="loc-img">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="loc-con">
+                  <h1>EMAIL:</h1>
+                  <p>siamsadab830@gmail.com</p>
+                </div>
+              </div>
+              <div class="fa-location">
+                <div class="loc-img">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="loc-con">
+                  <h1>Call:</h1>
+                  <p>1743498862</p>
+                </div>
+              </div>
+              <div class="mapp">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.7270722947255!2d89.9141690114379!3d24.251322769270203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdfbfb7ec2553f%3A0xdc4bf851225260c5!2sAtpukur%20Tangail!5e0!3m2!1sen!2sbd!4v1692770393079!5m2!1sen!2sbd" width="100%" height="255px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 form">
+            <div class="padd-fo ">
+              <div class="form-div">
+                <form>
+                  <div class="l-fname">
+                    <div class="first-n">
+                      <label for="firstname">Firstname
+                        <input type="text" name="firstname" id="firstname">
+                      </label>
+                    </div>
+                    <div class="l-name">
+                      <label for="lasttname">Lastname
+                        <input type="text" name="lasttname" id="lasttname">
+                      </label>
+                    </div>   
+                  </div>
+                  <div class="sub col-12">
+                    <label for="sub">Subject
+                      <input type="text" name="sub" id="sub">
+                    </label>
+                  </div>
+                  <div class="text-rea ">
+                    <label for="text-area">Message
+                      <textarea class="text-area"></textarea>
+                    </label>
+                  </div>
+                  
+                  <div class="button">
+                    <button class="btn btn-darkf">Send Message</button>
+                  </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Join Our Newsletter start  -->
+<section class="le" style="padding: 70px 0px; background-color: #F3F5FA;">
+  <div class="container">
+    <div class="row justify-content-center row-lead">
+      <div class="col-12 col-lg-6 text-center">
+        <div class="con">
+          <h1>Join Our Newsletter</h1>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        </div>
+        <form style="box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06); border-radius: 50px; ">
+          <div class="lead">
+          <input type="text" id="lead-form" name="lead-form">
+          <button type="submit" id="submit">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ******** foter ********* -->
+<section style="padding: 70px 0px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 foter">
+        <h1>ARSHA</h1>
+        <p>A108 Adam Street<br>
+          New York, NY 535022<br>
+          United States</p>
+          <br>
+          <br>
+          <strong>
+           Phone :
+          </strong>
+          +081743408862
+          <br>
+          <strong>Email :</strong>
+          Siamhossen26@gmail.com
+      </div>
+      <!-- span 2 -->
+      <div class="col-12 col-md-6 col-lg-3 foter">
+        <h4>Usefull Link</h4>
+        <ul>
+          
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>Home</li>
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>About Us</li>
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>Services</li>
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>Terms of service</li>
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>Privacy policy</li>
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>Home</li>
+        </ul>
+      </div>
+      <!-- span 3 -->
+      <div class="col-12 col-md-6 col-lg-3 foter">
+        <h4>Our Services</h4>
+        <ul>
+          
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>Web design</li>
+          <li>
+            <i class="fa-solid fa-chevron-right"></i>Web Development</li>
+          <li>
+            <li>
+              <i class="fa-solid fa-chevron-right"></i>Product ManageMent</li>
+            <li>
+              <li>
+                <i class="fa-solid fa-chevron-right"></i>Marketing</li>
+              <li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>Graphic Design</li>
+                <li>
+          
+        </ul>
+      </div>
+      <!-- span 4 -->
+      <div class="col-12 col-md-6 col-lg-3 foter">
+        <h4>Our Social Networks</h4>
+        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+        <diV class="social-icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-skype"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </diV>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- copywrite  -->
+<section style="background-color: #37517E; padding: 30px 0px;">
+  <div class="container" style="background-color: #37517E;">
+    <div class="row">
+      <div class="col-12 col-lg-6 text-center text-lg-start copy">
+        <p class="text-white">© Copyright Arsha. All Rights ReservedDesigned by BootstrapMade</p>
+      </div>
+      <div class="col-12 col-lg-6 text-center text-lg-end copy">
+        <p class="text-white">Designed by BootstrapMade</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+  </body>
+</html>

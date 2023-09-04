@@ -1,0 +1,99 @@
+@media only screen and (max-width: 576px){
+    .img-fluid{
+        width: 75%;
+    }
+    .skill-png{
+        width: 100%;
+    }
+
+    .roes{
+        position: relative;
+       
+    }
+    .col-md-6{
+        width: 100%;
+    }
+    .col-md-6 .img-fluid{
+        width: 100%;
+    }
+    .tt{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: block;
+    }
+
+  .t-one{
+    position: relative;
+    position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+  }
+  .t-four{
+    position: relative;
+    position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+
+  }
+  .t-five{
+    position: relative;
+    position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+
+  }
+  .t-six{
+    position: relative;
+    position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+
+  }
+  .t-seven{
+    position: relative;
+    position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+
+  }
+  .t-eight{
+    position: relative;
+    position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+
+  }
+  .t-nine{
+    position: relative;
+    position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+
+  }
+  .mob-cont{
+    max-width: 80%;
+    margin: auto;
+}
+
+/* <!-- FREQUENTLY ASKED QUESTIONS section start  --> */
+.row-pad{
+    padding: 0px 20px;
+}
+        
+}
+
+@media only screen and (max-width: 420px){
+    .mob-cont{
+        max-width: 100%;
+        margin: auto;
+    }
+    #submit{
+        min-width: 29%;
+    }
+    .dropdown-menu.show {
+        display: block;
+        padding: 10px 5px;
+        width: 93%;
+    }
+}
